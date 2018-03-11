@@ -1,0 +1,53 @@
+        body {
+            font-family: monospace;
+            background-color: black;
+            opacity: 0.5;
+
+        }
+        /*/ Hover effect on the body/*/
+        body:hover{
+            opacity: 0.9;
+        }
+        /*/applied transition and design on slider/*/
+        #slider {
+            background-color: lightgray;
+            width: 500px;
+            padding: 10px;
+            border-radius: 100px;
+            transition: all 1s;
+            margin-left: 30%;
+            margin-top:2%;
+        }
+        /*/ Applied design to the effects of slider button/*/
+        h1 {
+            text-align: center;
+            color:  white;
+            width: 100px;
+            height: 100px;
+            margin: 0;
+            position: relative;
+            left: 0;
+            transition: all 1s;
+            border-radius: 50px;
+            
+        }
+        /*/ Applied design on text/*/
+        h2{
+            color:white;
+        }
+
+        h3{
+            background-color: black;
+            color:white;
+            margin-top: 15%;
+            text-align: center;     
+           }
+      /*/Effects on JQuery/*/
+        .on {
+            left: 400px;
+        background-color: #4D50F7;
+        }
+       
+        h2{
+            text-align: center;
+        }
